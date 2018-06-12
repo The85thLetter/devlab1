@@ -5,11 +5,12 @@ body {
 }
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-around;
     margin: 0;
     padding: 0;
 }
 li {
-    display: inline;
     padding: 30px;
 }
 .ico {
@@ -35,6 +36,8 @@ li {
     font-family: 'Lora', serif;
 }
 .aboutme{
+    color:black;
+    background-color:#55698c;
     margin-top:5px;
     margin-bottom:5px;
     align-items: center;
@@ -49,10 +52,14 @@ li {
     padding-right:10%;
 }
 .contact {
+    color:black;
+    background-color:#55698c;
     color: white;    
     text-decoration: none;
 }
 .portfolio{
+    color:black;
+    background-color:#55698c;
     margin-top:5px;
     margin-bottom:5px;
     align-items: center;
