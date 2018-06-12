@@ -45,14 +45,22 @@ li {
 }
 #about {
     font-size: 30px;
+    padding-left:10%;
+    padding-right:10%;
 }
 .contact {
     color: white;    
     text-decoration: none;
 }
-.portfolio {
-    display: flex;
-    flex-wrap: wrap;
+.portfolio{
+    margin-top:5px;
+    margin-bottom:5px;
+    align-items: center;
+    text-align:center;
+}
+.portfolioItems {
+    align-items: center;
+    text-align:center;
 }
 .portfolioItem {
     box-sizing: border-box;
@@ -61,12 +69,32 @@ li {
     width:20%;
     background-color: white;
     margin:50px;
+    display:inline-block;
 }
 .portfolioItem:hover {
     box-sizing: border-box;
     border: inset grey 10px;
     padding:50px;
     width:20%;
-    background-color:  grey;
+    background-color: grey;
     margin: 50px;
+    animation: wow ease-in 5s alternate-reverse infinite;
+}
+@keyframes wow {
+    0% {
+        color: white;
+        background-color: grey;
+    } 25% {
+        color: red;
+        background-color: green;
+    } 50% {
+        color: orange;
+        background-color: blue;
+    } 75% {
+        color: purple;
+        background-color: yellow;
+    } 100% {
+        color: green;
+        background-color: red;
+    }
 }
